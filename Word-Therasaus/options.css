@@ -1,0 +1,107 @@
+body {
+    padding: 70px;
+    background: url(option_background.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+
+.jumbotron{
+  color:#2c3e50;
+  background: #ecf0f1;
+}
+
+.thumbnail{
+  width:200px;
+  position:relative;
+  margin: 10px;
+}
+
+.thumbnail img{
+  max-width:100%;
+}
+
+.thumbnail h1{
+  position:absolute;
+  top:50%;
+  left:0;
+  color:white;
+  width:100%;
+  text-align:center;
+  transform:translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 20px;
+  margin:0;
+  font-weight: 40px;
+}
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 7px 7px; /* Some padding */
+  margin-left: 11px;
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color:red;
+}
+
+
+
+  /*html { 
+           background: url(image.jpg) no-repeat center center fixed; 
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+}
+
+ul{
+      background: #3399ff;
+      padding: 20px;
+}
+
+            ul li {
+              background: #cce5ff;
+              margin: 20px;
+              padding:10px;
+            }
+            #collectwords
+              {
+                  border-color: #4CAF50;
+                  color: green;
+                  padding:20px;
+                  font-size: 20px;
+              }
+
+            #collectwords:hover 
+              {
+                  background-color: #4CAF50;
+                  color: white;
+              }
+            .del_btn
+              {
+                  border-color: #4CAF50;
+                  background-color: #4CAF50;
+                  color: green;
+                  padding:5px;
+                  font-size: 10px;
+
+
+              }
+
+            .del_btn:hover 
+              {
+                  background-color: red;
+                  color: white;
+                  border-color: red;
+              }
+      */

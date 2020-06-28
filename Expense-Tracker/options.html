@@ -1,0 +1,82 @@
+<!--this page will be opened when we right click on the extension
+reset the total spending annually, weekly etc. -->
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Bugdet Manager Options</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="jquery-3.1.0.min.js"></script>
+            <script src="options.js"></script>
+            <style>
+                body
+                {
+                    background-image: url("images.jpg");
+                    background-repeat: no-repeat;
+                    min-width:400px;
+
+                }
+                .verticalLineTop
+                {
+                    width:50%;
+                    margin-left:130px; 
+                    color: white;
+                }   
+                .box
+                {
+                      border-radius: 10px;
+                      background-color: #f2f2f2;
+                      padding-left: 20px;
+                      padding-top: 10px;
+                      height: 100px;
+                      width: 30%;
+                      margin-left:80px;
+                      margin-top: 130px;
+
+                }
+
+                #savelimit
+                {
+                  border-color: #4CAF50;
+                  color: green;
+                }
+
+                #savelimit:hover 
+                {
+                  background-color: #4CAF50;
+                  color: white;
+                }
+                #resettotal
+                {
+                  border-color: #4CAF50;
+                  color: green;
+                }
+
+                #resettotal:hover 
+                {
+                  background-color: #4CAF50;
+                  color: white;
+                }
+                #limit
+                {
+                      width: 50%;
+                      background-color: white;
+                      color: black;
+                      padding:6px;
+                      margin: 8px;
+                      border: black;
+                      border-radius: 4px;
+                }
+
+            </style>
+    </head>
+<body>
+    <h1 class="verticalLineTop">Expense Tracker Options</h1>
+    <div class="box">
+        <label><h2>Limit : </h2></label>
+        <input type="text" id="limit" placeholder="Enter your limits" />
+        <input type="submit" id="savelimit" value="Save Limit" style="background: #2ECC71"/>  
+        <input type="submit" id="resettotal" value="Reset Total" style="background: #2ECC71"/> 
+    </div>
+</body>
+</html>
+

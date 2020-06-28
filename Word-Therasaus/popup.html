@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+	<title>Word Thesaurus</title>
+	<script src="jquery-3.1.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="popup.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="options.js"></script>
+	<style>
+		input[type=text], select {
+		  width: 100%;
+		  padding: 12px 10px;
+		  margin: 4px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+		div {
+		  border-radius: 5px;
+		  background-color: #f2f2f2;
+		  padding: 2px;
+		}
+	</style>
+</head>
+
+<body>
+    <div>
+		 <img class="logo" src="images/logo128.png" alt="Word Thesaurus">
+	</div>
+	<div class="hr-theme-slash-2">
+  		 <div class="hr-line"></div>
+  		 <div class="hr-icon"><i class="fa fa-heart" style="font-size:20px;color:black"></i><i class="fa fa-heart" style="font-size:20px;color:red"></i></div>
+    <div class="hr-line"></div>
+	</div>
+	 <div class="text">
+    	<p>	ADDING YOUR FAVOURITE WORDS ONLINE</p>
+    </div>
+  	<form id="myform">
+	    	<input type="text" id="addword" name="word" placeholder="Enter the word" >
+	    	<input id="submitbutton" type="submit">
+	</form>
+	<div class="wrapper">
+  		<a class="first after" href="#">Developed by Aditya Atri</a>
+	</div>
+</body>
+</html>
+
+

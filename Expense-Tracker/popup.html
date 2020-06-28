@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Expense Tracker</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="jquery-3.1.0.min.js"></script>
+            <script src="popup.js"></script>
+            <style>
+                body
+                {
+                    background-image: url("images.jpg");
+                    background-repeat: no-repeat;
+                    min-width:400px;
+
+                }
+                .verticalLineTop
+                {
+                    width:50%;
+                    margin-left:130px; 
+                    color: white;
+                }   
+                .box
+                {
+                      border-radius: 10px;
+                      background-color: #f2f2f2;
+                      padding-left: 20px;
+                      padding-top: 10px;
+                      height: 200px;
+                      width: 80%;
+                      margin-left:60px;
+
+                }
+
+                #spendAmount
+                {
+                  border-color: #4CAF50;
+                  color: green;
+                }
+
+                #spendAmount:hover 
+                {
+                  background-color: #4CAF50;
+                  color: white;
+                }
+                #amount
+                {
+                      width: 50%;
+                      background-color: white;
+                      color: black;
+                      padding:6px;
+                      margin: 8px;
+                      border: black;
+                      border-radius: 4px;
+                }
+
+            </style>
+    </head>
+<body>
+    <h1 class="verticalLineTop">Expense Tracker</h1>
+    <div class="box">
+        <h2>Total Spent :<span id="total">0</span></h2>
+        <h2>Limit :<span id="limit">0</span></h2>
+        <label><h2>Enter Amount : </h2></label>
+        <input type="text" id="amount" placeholder="Enter your spending" />
+        <input type="submit" id="spendAmount" value="Spend" style="background: #2ECC71"/>   
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
